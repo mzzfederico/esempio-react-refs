@@ -1,5 +1,4 @@
-import { useContext } from "react";
-import { todosContext, useTodos } from "./TodosProvider";
+import { useTodos } from "./useTodos";
 
 export function TodosList() {
   const { todos, completeTodo } = useTodos();

@@ -1,4 +1,4 @@
-import { useTodos } from "./TodosProvider";
+import { useTodos } from "./useTodos";
 
 export function TodosCounter() {
   const { todos } = useTodos();

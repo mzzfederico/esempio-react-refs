@@ -16,7 +16,7 @@ export default function reducer(state, action) {
     /* {type: "ADD_TODO", date: "...." } */
     if (action.type === ADD_TODO) {
       nuovoStato.todos = nuovoStato.todos.concat({
-        text: nuovoStato.inputValue, isComplete: false, date: action.date
+        text: nuovoStato.inputValue, isComplete: false, date: action.date /* AGGIUNGERE TAG QUI */
       });
       nuovoStato.inputValue = "";
     }
